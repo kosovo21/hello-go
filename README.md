@@ -1,2 +1,3 @@
 # hello-go
-go playgroud
+
+based on [tutorial](https://golang.org/doc)
