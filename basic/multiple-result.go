@@ -7,6 +7,7 @@ func swap(x, y string) (string, string) {
 }
 
 func MultiResult() {
+	fmt.Println("== MultiResult ==")
 	a, b := swap("hello", "world")
 	fmt.Println(a, b)
 }

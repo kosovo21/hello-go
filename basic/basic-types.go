@@ -12,12 +12,14 @@ var (
 )
 
 func BasicTypes() {
+	fmt.Println("== BasicTypes ==")
 	fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)
 	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)
 	fmt.Printf("Type: %T Value: %v\n", z, z)
 }
 
 func DefaultValue() {
+	fmt.Println("== DefaultValue ==")
 	var i int
 	var f float64
 	var b bool

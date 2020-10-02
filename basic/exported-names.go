@@ -6,5 +6,6 @@ import (
 )
 
 func Export() {
+	fmt.Println("== Export ==")
 	fmt.Println(math.Pi)
 }

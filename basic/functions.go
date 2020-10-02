@@ -11,6 +11,7 @@ func add2(x, y int) int {
 }
 
 func Functions() {
+	fmt.Println("== Functions ==")
 	fmt.Println(add(42, 13))
 	fmt.Println(add2(43, 14))
 }

@@ -3,6 +3,7 @@ package basic
 import "fmt"
 
 func NamedResult() {
+	fmt.Println("== NamedResult ==")
 	fmt.Println(split(17))
 }
 

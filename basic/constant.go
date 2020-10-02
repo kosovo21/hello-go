@@ -5,6 +5,7 @@ import "fmt"
 const Pi = 3.14
 
 func Constant() {
+	fmt.Println("== Constant ==")
 	const World = "世界"
 	fmt.Println("Hello", World)
 	fmt.Println("Happy", Pi, "Day")
@@ -27,6 +28,7 @@ func needFloat(x float64) float64 {
 }
 
 func NumericConstant() {
+	fmt.Println("== NumericConstant ==")
 	fmt.Println(needInt(Small))
 	fmt.Println(needFloat(Small))
 	fmt.Println(needFloat(Big))

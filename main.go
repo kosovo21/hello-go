@@ -2,6 +2,9 @@ package main
 
 import (
 	"github.com/kosovo21/hello-go/basic"
+	"github.com/kosovo21/hello-go/exercise"
+	"github.com/kosovo21/hello-go/flow"
+	"github.com/kosovo21/hello-go/more"
 )
 
 func main() {
@@ -21,4 +24,42 @@ func main() {
 	basic.TypeInterface()
 	basic.Constant()
 	basic.NumericConstant()
+
+	flow.For()
+	flow.ForAsWhile()
+	// flow.Forever()
+	flow.If()
+	flow.IfShort()
+	flow.IfElse()
+	exercise.Loop()
+	flow.Switch()
+	flow.SwitchOrder()
+	flow.SwitchNoCondition()
+	flow.Defer()
+	flow.DeferStack()
+
+	more.Pointer()
+	more.Struct()
+	more.StructField()
+	more.StructPointer()
+	more.StructLiteral()
+	more.Array()
+	more.Slices()
+	more.SlicePointer()
+	more.SliceLiteral()
+	more.SliceDefault()
+	more.SliceLenAndCap()
+	more.SliceNil()
+	more.SliceMake()
+	more.SliceOfSlice()
+	more.SliceAppend()
+	more.Range()
+	more.RangeSimple()
+	exercise.Slice()
+	more.Map()
+	more.MapLiteral()
+	more.MapAction()
+	more.FunctionValue()
+	more.FunctionClosure()
+	more.FunctionFibonacci()
 }
